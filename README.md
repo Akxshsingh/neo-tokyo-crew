@@ -55,8 +55,6 @@ neo-tokyo-crew/
 │ └── download.html # Download center
 └── assets/ # Images, fonts, icons
 
-text
-
 ##  Quick Start
 
 # Clone the repository
