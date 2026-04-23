@@ -112,4 +112,4 @@ Global street art culture
  Show Your Support
 Give a ⭐️ if you like this project!
 
-Made with Akxshsingh
+Made by Akxshsingh
