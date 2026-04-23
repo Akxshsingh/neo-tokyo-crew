@@ -1,0 +1,111 @@
+============================================
+TETSUO WORDPRESS THEME v2.0
+============================================
+
+Theme Name: Tetsuo // 鉄雄
+Version: 2.0.0
+Author: NEO TOKYO CREW
+Author URI: https://neotokyo.crew
+Theme URI: https://neotokyo.crew/tetsuo
+Description: Brutalist cyberpunk portfolio theme inspired by iconic manga and anime. Features glitch animations, manga-style layouts, and post-human aesthetics.
+Tags: cyberpunk, manga, portfolio, dark-mode, glitch, anime, artist, designer, creative, blog
+License: GPL-2.0+
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tetsuo
+Domain Path: /languages
+
+============================================
+FEATURES
+============================================
+
+✓ Glitch text animations
+✓ Manga-inspired page templates
+✓ Cyberpunk UI elements
+✓ Fully responsive design
+✓ Gutenberg block editor ready
+✓ Dark mode optimized
+✓ Custom widgets
+✓ Portfolio post type
+✓ SVG icon support
+✓ Translation ready
+✓ SEO optimized
+✓ Fast loading
+✓ Accessibility ready
+
+============================================
+INSTALLATION
+============================================
+
+1. Download tetsuo-theme-v2.0.zip
+2. Go to WordPress Admin > Appearance > Themes
+3. Click "Add New" > "Upload Theme"
+4. Choose the ZIP file and click "Install Now"
+5. Click "Activate"
+6. Go to Appearance > Customize to configure
+
+============================================
+QUICK START
+============================================
+
+1. Install and activate the theme
+2. Install recommended plugins:
+   - Advanced Custom Fields (optional)
+   - Contact Form 7
+   - Yoast SEO
+3. Import demo content (Appearance > Import Demo Data)
+4. Customize colors in Customizer
+5. Set up your portfolio
+6. Configure menus
+
+============================================
+CHANGELOG
+============================================
+
+v2.0.0 - 2026-01-15
+- Added glitch text animations
+- New manga-style page templates
+- Improved mobile responsiveness
+- Added download system
+- Fixed CSS grid issues
+- Updated Font Awesome to v6
+- Performance improvements
+
+v1.5.0 - 2025-10-01
+- Added Gutenberg support
+- New customizer options
+- Bug fixes
+
+v1.0.0 - 2025-06-01
+- Initial release
+
+============================================
+CREDITS
+============================================
+
+Inspired by:
+- AKIRA (Katsuhiro Otomo)
+- Ghost in the Shell (Masamune Shirow)
+- BLAME! (Tsutomu Nihei)
+- Cyberpunk 2077
+- Neo Tokyo aesthetics
+
+Fonts:
+- Orbitron (Google Fonts)
+- Rajdhani (Google Fonts)
+
+Icons:
+- Font Awesome 6
+
+============================================
+SUPPORT
+============================================
+
+Documentation: https://neotokyo.crew/docs
+Support Forum: https://neotokyo.crew/support
+Email: Akxshsingh0726@gmail.com
+
+
+============================================
+NEO TOKYO CREW · 鉄雄 × CRAFFITI
+============================================
+heoheoheoheo · TETSUO · GOBE · LOREMIPSUM · heoheoheoheo

@@ -1,0 +1,39 @@
+Note: This is a placeholder for the actual ZIP file.
+The real WordPress theme would be a ZIP archive containing:
+
+tetsuo/
+├── style.css
+├── index.php
+├── functions.php
+├── header.php
+├── footer.php
+├── sidebar.php
+├── single.php
+├── page.php
+├── archive.php
+├── search.php
+├── 404.php
+├── screenshot.png
+├── assets/
+│   ├── css/
+│   │   ├── main.css
+│   │   ├── cyberpunk.css
+│   │   └── responsive.css
+│   ├── js/
+│   │   ├── main.js
+│   │   ├── glitch.js
+│   │   └── navigation.js
+│   ├── images/
+│   └── fonts/
+├── inc/
+│   ├── customizer.php
+│   ├── widgets.php
+│   └── tgm-plugin-activation.php
+├── languages/
+│   └── tetsuo.pot
+└── README.txt
+
+File size: ~2.5 MB (estimated)
+
+For the actual theme files, visit:
+https://neotokyo.crew/downloads

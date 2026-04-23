@@ -1,0 +1,90 @@
+{
+  "name": "NEO TOKYO CREW",
+  "short_name": "NTC",
+  "description": "Cyberpunk × Street Culture - Fusion of manga aesthetics and raw graffiti energy",
+  "icons": [
+    {
+      "src": "/assets/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0b0c0e",
+  "background_color": "#0b0c0e",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "start_url": "/",
+  "scope": "/",
+  "orientation": "portrait-primary",
+  "categories": ["design", "art", "entertainment"],
+  "screenshots": [
+    {
+      "src": "/assets/screenshots/homepage-desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Homepage of NEO TOKYO CREW"
+    },
+    {
+      "src": "/assets/screenshots/homepage-mobile.png",
+      "sizes": "375x667",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile view of NEO TOKYO CREW"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tetsuo Theme",
+      "short_name": "Tetsuo",
+      "description": "View the cyberpunk theme",
+      "url": "/pages/tetsuo.html",
+      "icons": [
+        {
+          "src": "/assets/icons/tetsuo-shortcut.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Join Crew",
+      "short_name": "Join",
+      "description": "Become part of CRAFFITICREW",
+      "url": "/pages/join.html",
+      "icons": [
+        {
+          "src": "/assets/icons/join-shortcut.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "lang": "en-US",
+  "dir": "ltr",
+  "iarc_rating_id": "",
+  "edge_side_panel": {}
+}

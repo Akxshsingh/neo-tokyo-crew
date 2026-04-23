@@ -1,0 +1,204 @@
+/* ============================================ */
+/* NEO TOKYO CREW - Custom Font Declarations    */
+/* ============================================ */
+
+/* --------------------------------------------
+   CYBERPUNK FONTS
+   -------------------------------------------- */
+
+/* Orbitron - Primary Cyberpunk Font */
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/orbitron/v31/yMJRMIlzdpvBhQQL_Qq7dy0.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/orbitron/v31/yMJMMIlzdpvBhQQL_SC3X9yhF8-T.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/orbitron/v31/yMJMMIlzdpvBhQQL_Qi4X9yhF8-T.woff2') format('woff2');
+}
+
+/* Rajdhani - Body Text */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/rajdhani/v15/LDI2apCSOBg7S-QT7pasEfOqeef2.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/rajdhani/v15/LDI2apCSOBg7S-QT7pb0EPOqeef2.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/rajdhani/v15/LDI2apCSOBg7S-QT7pa8FvOqeef2.woff2') format('woff2');
+}
+
+/* --------------------------------------------
+   STREET CULTURE FONTS
+   -------------------------------------------- */
+
+/* Bangers - Street Headlines */
+@font-face {
+  font-family: 'Bangers';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/bangers/v24/FeVQS0BTqb0h60ACL5la2bxii28.woff2') format('woff2');
+}
+
+/* Rubik Glitch - Graffiti Display */
+@font-face {
+  font-family: 'Rubik Glitch';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/rubikglitch/v2/qkBSXv8b_srFRYQVYrDKh9ZfnyTGnOqV.woff2') format('woff2');
+}
+
+/* Rock Salt - Hand-Drawn Tags */
+@font-face {
+  font-family: 'Rock Salt';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/rocksalt/v22/MwQ0bhv11fWD6QsAVOZbsA.woff2') format('woff2');
+}
+
+/* --------------------------------------------
+   CUSTOM FONT CLASSES
+   -------------------------------------------- */
+
+.font-cyber {
+  font-family: 'Orbitron', 'Arial Black', sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.font-body {
+  font-family: 'Rajdhani', 'Segoe UI', sans-serif;
+  font-weight: 500;
+}
+
+.font-street {
+  font-family: 'Bangers', 'Impact', cursive;
+  letter-spacing: 1px;
+}
+
+.font-graffiti {
+  font-family: 'Rubik Glitch', 'Arial Black', cursive;
+}
+
+.font-tag {
+  font-family: 'Rock Salt', 'Comic Sans MS', cursive;
+}
+
+/* --------------------------------------------
+   GLITCH TEXT EFFECTS
+   -------------------------------------------- */
+
+.glitch-text {
+  font-family: 'Orbitron', monospace;
+  position: relative;
+  text-shadow: 
+    0.05em 0 0 rgba(255, 0, 0, 0.75),
+    -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+    0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  animation: glitch 500ms infinite;
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: 
+      0.05em 0 0 rgba(255, 0, 0, 0.75),
+      -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  14% {
+    text-shadow: 
+      0.05em 0 0 rgba(255, 0, 0, 0.75),
+      -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  15% {
+    text-shadow: 
+      -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+      0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  49% {
+    text-shadow: 
+      -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+      0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  50% {
+    text-shadow: 
+      0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+      0.05em 0 0 rgba(0, 255, 0, 0.75),
+      0 -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  99% {
+    text-shadow: 
+      0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+      0.05em 0 0 rgba(0, 255, 0, 0.75),
+      0 -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  100% {
+    text-shadow: 
+      -0.025em 0 0 rgba(255, 0, 0, 0.75),
+      -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+}
+
+/* --------------------------------------------
+   NEON TEXT EFFECTS
+   -------------------------------------------- */
+
+.neon-text-cyber {
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #ff2a7f,
+    0 0 30px #ff2a7f,
+    0 0 40px #ff2a7f;
+}
+
+.neon-text-street {
+  font-family: 'Bangers', cursive;
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #ffcc00,
+    0 0 20px #ffcc00,
+    0 0 30px #ffcc00;
+}
+
+/* ============================================ */
+/* END OF FONTS.CSS                            */
+/* ============================================ */
